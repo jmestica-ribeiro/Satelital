@@ -86,6 +86,7 @@ export function TripDetailDialog({ trip, onClose }: Props) {
                   "IDE Alta":    "Inicio",
                   "IDE Baja":    "Llegada",
                   "PARADA":      "Parada",
+                  "ACTIVIDAD":   "En ruta",
                   "Exceso Vel.": "Exceso",
                   "Zona":        "Zona",
                 };

@@ -40,7 +40,7 @@ export interface Lugar {
 }
 
 // Tipos de evento GPS tal como vienen de la base de datos
-export type TipoEvento = "IDE Alta" | "PARADA" | "IDE Baja" | "Exceso Vel." | "Zona";
+export type TipoEvento = "IDE Alta" | "ACTIVIDAD" | "PARADA" | "IDE Baja" | "Exceso Vel." | "Zona";
 
 export interface EventoGPS {
   id: number;

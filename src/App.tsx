@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { PrimeReactProvider } from "primereact/api";
-import { Icons, Avatar, Button, ToastContainer, useToast } from "./components/ui";
+import { Icons, Button, ToastContainer, useToast } from "./components/ui";
 import { DashboardScreen } from "./pages/DashboardScreen";
 import { SearchScreen } from "./pages/SearchScreen";
 
@@ -90,10 +90,9 @@ function Sidebar({ screen, onGoTo }: { screen: Screen; onGoTo: (s: Screen) => vo
       </nav>
 
       <div className="sidebar-footer">
-        <Avatar name="Diego Ribeiro" size="sm"/>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ fontSize: 13, fontWeight: 600 }}>Diego Ribeiro</div>
-          <div style={{ fontSize: 11, color: "var(--text-color-secondary)" }}>Administrador</div>
+          <div style={{ fontSize: 13, fontWeight: 600 }}>Ribeiro SRL</div>
+          <div style={{ fontSize: 11, color: "var(--text-color-secondary)" }}>Satelitrack v1.0</div>
         </div>
         <button className="btn btn-ghost icon-only sm"><Icons.Settings /></button>
       </div>
@@ -125,7 +124,6 @@ function Topbar({ screen, onGoTo }: { screen: Screen; onGoTo: (s: Screen) => voi
           <Icons.Alert />
           <span className="topbar-badge">3</span>
         </button>
-        <Avatar name="Diego Ribeiro" size="sm" />
       </div>
     </div>
   );
