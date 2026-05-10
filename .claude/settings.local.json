@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(cp -r \"c:/Users/Juan Martin/Desktop/satelitrack-tmp/.\" \"c:/Users/Juan Martin/Desktop/Satelitrack/\")",
+      "Bash(rm -rf \"c:/Users/Juan Martin/Desktop/satelitrack-tmp\")",
+      "Bash(npm install *)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(cp webfetch-1778439012446-r7wjqe.bin design.gz)",
+      "Bash(gunzip -f design.gz)",
+      "Bash(tar xf *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
